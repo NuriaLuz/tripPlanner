@@ -8,9 +8,12 @@ body{
     background-color: rgb(236, 146, 68);
 }
 
+
+
 #map {
-    height : 100vh;
-    width:100vh;
+    flex: 1;
+    height: calc(100vh - 3rem);
+    overflow: hidden;
 }
 
 header {
@@ -21,6 +24,20 @@ header {
     background-color: #3a6590;
     color: #b1c9db;
 }
-h1 {
 
-}
+h1 {
+    margin: 0;
+    font-family: 'Lobster', cursive;  
+    font-weight: normal;
+    font-size: 2rem;
+  }
+
+@media screen and (max-width: 600px) {
+    #app {
+      flex-direction: column
+    }
+    #map {
+      margin: 0 1rem;
+      height: 75vh;
+    }
+  }
