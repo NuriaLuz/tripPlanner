@@ -5,10 +5,22 @@
 body{
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #C1B5AD;
+    background-color: rgb(236, 146, 68);
 }
 
 #map {
     height : 100vh;
     width:100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding: 0 0.5rem;
+    background-color: #3a6590;
+    color: #b1c9db;
+}
+h1 {
+
 }
