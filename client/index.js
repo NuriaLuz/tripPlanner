@@ -14,3 +14,4 @@ const map = new mapboxgl.Map({
 
 const marker = buildMarker("activities", fullstackCoords)
 marker.addTo(map)
+
