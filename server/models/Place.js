@@ -10,4 +10,4 @@ const Place = db.define('place', {
     location: Sequelize.ARRAY(Sequelize.FLOAT)
 });
 
-module.exports = Place
+module.exports = Place;
